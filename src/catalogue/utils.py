@@ -14,7 +14,10 @@ from src.catalogue.models.elasticsearch import (
     CategoryIndex,
     CATEGORY_INDEX,
 )
-from src.catalogue.models.pydantic import ProductElasticResponse
+from src.catalogue.models.pydantic import (
+    ProductElasticResponse,
+    CategoryElasticResponse,
+)
 from src.common.databases.elasticsearch import elastic_client
 
 
